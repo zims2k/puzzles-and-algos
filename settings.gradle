@@ -1,0 +1,2 @@
+rootProject.name = 'puzzles-and-algos'
+include '10outof100coins'
