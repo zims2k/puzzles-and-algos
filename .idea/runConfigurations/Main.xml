@@ -1,8 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+    <output_file path="C:\Users\Andreas\IdeaProjects\puzzles-and-algos\applog.log" is_save="true" />
     <option name="MAIN_CLASS_NAME" value="at.zims2k.tenouthundretpuzzle.Main" />
     <module name="puzzles-and-algos.10outof100coins.main" />
-    <option name="PROGRAM_PARAMETERS" value="4 100 XXX_DONT_XXX_letitfail" />
+    <option name="PROGRAM_PARAMETERS" value="12345 67890 XXX_DONT_XXX_letitfail" />
     <option name="VM_PARAMETERS" value="-Dlog4j.skipJansi=false" />
     <extension name="coverage">
       <pattern>

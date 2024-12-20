@@ -134,13 +134,13 @@ public class Main {
         }
     }
 
-    private static void print(List<Coin> firstTen, List<Coin> others) {
+    private static void print(List<Coin> group_A, List<Coin> others) {
         int fixedWidth = CoinState.getMaxCharactersPerEnumName();
         String formattedHead = String.format("%-" + fixedWidth + "s", CoinState.HEAD.getStateString());
         String formattedNumber = String.format("%-" + fixedWidth + "s", CoinState.NUMBER.getStateString());
 
-        log.info("{} (first 10): {}", formattedHead, Util.countHead(firstTen));
-        log.info("{} (first 10): {}", formattedNumber, Util.countNumber(firstTen));
+        log.info("{} (first {}): {}", group_A.size(), formattedHead, Util.countHead(group_A));
+        log.info("{} (first {}): {}", group_A.size(), formattedNumber, Util.countNumber(group_A));
         log.info("{} (others): {}", formattedHead, Util.countHead(others));
         log.info("{} (others): {}", formattedNumber, Util.countNumber(others));
         log.info("----------");
